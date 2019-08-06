@@ -44,7 +44,7 @@ class PlayingCardView: UIView {
     
     private func createCornerLabel() -> UILabel {
         let label = UILabel()
-        label.numberOfLines = 0 // размещаем столько строк сколько нужно, можно поставить 2
+        label.numberOfLines = 0 // ноль означает что мы размещаем столько строк сколько нужно, можно поставить 2
         addSubview(label)
         return label
     }
